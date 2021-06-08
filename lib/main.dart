@@ -40,7 +40,7 @@ class _SpeechScreenState extends State<SpeechScreen> {
         fontWeight: FontWeight.bold,
       )
     )
-  }
+  };
   stt.SpeechToText _speech;
   bool _isListening = false;
   String _text = 'Pulsa el botón y empieza a hablar';
@@ -80,7 +80,7 @@ class _SpeechScreenState extends State<SpeechScreen> {
             text: _text,
             words: _highlights,
             textStyle: const TextStyle(
-              fontSize: 32,
+              fontSize: 32.0,
               color: Colors.black,
               fontWeight: FontWeight.w400,
             ),
